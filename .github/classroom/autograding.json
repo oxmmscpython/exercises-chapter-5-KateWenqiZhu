@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "install",
+      "setup": "sudo -H pip3 install setuptools",
+      "run": "python3 -m pip install -e .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-5-4",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_exercise_5_4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-5-5",
+      "setup": "",
+      "run": "pytest tests/test_exercise_5_5.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "exercise-5-6",
+      "setup": "",
+      "run": "pytest tests/test_exercise_5_6.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
